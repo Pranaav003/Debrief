@@ -10,7 +10,7 @@ export function getStripe(): Stripe | null {
     stripeClient = null;
     return stripeClient;
   }
-  stripeClient = new Stripe(key, { apiVersion: "2026-03-25.dahlia" });
+  stripeClient = new Stripe(key, { apiVersion: "2025-02-24.acacia" });
   return stripeClient;
 }
 
