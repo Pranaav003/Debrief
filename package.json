@@ -1,0 +1,11 @@
+{
+  "name": "dbrief-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix debrief run dev",
+    "dev:clean": "npm --prefix debrief run dev:clean",
+    "build": "npm --prefix debrief run build",
+    "start": "npm --prefix debrief run start",
+    "lint": "npm --prefix debrief run lint"
+  }
+}
